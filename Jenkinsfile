@@ -10,7 +10,7 @@ pipeline {
 		steps {
 		
                         echo "Starting to copy"
-			sh 'bash /home/vagrant/secondvagrant/autovagrant.sh'
+			sh 'bash /tmp/autovagrant.sh'
                 }
           }
 
